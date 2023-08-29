@@ -389,6 +389,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timerActive: 0
   CurrentTime: 0
+  HightTime: 0
+  HightTimeText: {fileID: 0}
   CurrentTimeText: {fileID: 1849611188}
   buttonPressed: {fileID: 86363904}
   stopButton: {fileID: 211882441}
@@ -3645,6 +3647,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timerActive: 0
   CurrentTime: 0
+  HightTime: 0
+  HightTimeText: {fileID: 0}
   CurrentTimeText: {fileID: 0}
   buttonPressed: {fileID: 702992936}
   stopButton: {fileID: 0}
@@ -6002,7 +6006,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Quiter
+  m_text: Quitter
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 200dc2c9d4557724fba1ace62d9120b3, type: 2}
   m_sharedMaterial: {fileID: -2395847100358730583, guid: 200dc2c9d4557724fba1ace62d9120b3,
