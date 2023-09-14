@@ -401,7 +401,7 @@ MonoBehaviour:
   _canon: {fileID: 6072455828488272036}
   FireSFX: {fileID: 2065743629489697520}
   _bullet: {fileID: 6034435538974990017, guid: 437c522266e76b04d999f2af0c527db5, type: 3}
-  FireForce: 50
+  FireForce: 25
   destroyTime: 2
 --- !u!1 &1631096051362794895
 GameObject:

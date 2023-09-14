@@ -20,7 +20,7 @@ GameObject:
   - component: {fileID: 1800067453177867481}
   m_Layer: 0
   m_Name: RLazerAmmo
-  m_TagString: Lazer
+  m_TagString: RedLazer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

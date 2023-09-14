@@ -27,7 +27,6 @@ public class LazerAmmo : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Enemy"))
         {
-            Destroy(other.gameObject);
             Destroy(gameObject);
         }
 

@@ -3,7 +3,47 @@ guid: afeea5c633b214c46bc76bf784119299
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black_Mate
+    second: {fileID: 2100000, guid: ce5666c1c11d2794ab7b3dc0f100e19c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass_01
+    second: {fileID: 2100000, guid: fbc6766e8b044694e8ebdf2f657ca911, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gray-Metal
+    second: {fileID: 2100000, guid: ccd1906612a5e834782f6507d67f1427, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_02
+    second: {fileID: 2100000, guid: c4e6e1c21cbcfcd498302619505a466e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Base
+    second: {fileID: 2100000, guid: 04ea3f56a0c9d37438f86b3843f06ac7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Reactor_01
+    second: {fileID: 2100000, guid: a748a5e50c7d634418fdfa7f1978793c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red_Glow
+    second: {fileID: 2100000, guid: 022c02f14b700514484ac9b5e515ffe8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SolarPanel
+    second: {fileID: 2100000, guid: 256fd9589f8306e4b809ffefabd84ccf, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
