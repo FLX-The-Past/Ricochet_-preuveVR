@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using Random = Unity.Mathematics.Random;
 
 public class LazerAmmo : MonoBehaviour
 {
@@ -10,7 +11,6 @@ public class LazerAmmo : MonoBehaviour
     [SerializeField] private AudioSource ricochetSound;
     void Start()
     {
-        
     }
 
     
