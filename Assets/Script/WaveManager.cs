@@ -7,16 +7,19 @@ public class WaveManager : MonoBehaviour
     public int patternNumber;
     public List<GameObject> wavesPattern;
     public Transform waverSpawner;
+    public int numberOfWaves = 0;
     void Start()
     {
-        patternNumber = Random.Range(0, 1);
-
-        //Instantiate(wavesPattern, waverSpawner.position, waverSpawner.rotation);
+        patternNumber = Random.Range(0, 2);
     }
 
     
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            Instantiate(wavesPattern[patternNumber], waverSpawner.transform);
+            Debug.Log(patternNumber);
+        }
     }
 }
