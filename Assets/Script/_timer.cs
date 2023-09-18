@@ -5,6 +5,7 @@ using TMPro.EditorUtilities;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
+using UnityEngine.SceneManagement;
 using Random = System.Random;
 
 public class _timer : MonoBehaviour
@@ -102,5 +103,10 @@ public class _timer : MonoBehaviour
     {
         buttonPressed.Play();
         Application.Quit();
+    }
+
+    public void goToMenu()
+    {
+        SceneManager.LoadScene("Menu");
     }
 }
